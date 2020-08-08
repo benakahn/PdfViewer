@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16sp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context=".HomeActivity"
+    android:background="#000">
+<TextView
+    android:id="@+id/t1"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:text="Welcome to ISE department here u can refer notes"
+    android:textSize="45dp"
+    android:gravity="center"
+    android:textColor="#4B9F38" />
+    <Button
+        android:id="@+id/b"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/t1"
+        android:layout_alignParentRight="true"
+        android:text="NEXT"
+        android:onClick="next"
+        android:textSize="25dp"
+        android:textColor="#F30707"/>
+</RelativeLayout>
